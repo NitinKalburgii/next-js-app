@@ -1,0 +1,29 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  max-width: 900px;
+  padding: 48px;
+}
+
+.card {
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 300px;
+  align-items: center;
+  border: 1px solid #efefef;
+}
+
+h4 {
+  max-width: 200px;
+}
